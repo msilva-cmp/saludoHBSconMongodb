@@ -19,9 +19,9 @@ router.post('/', async function(req, res) {
     const result = await dbo.collection('personas').findOne(query);
 
     const res_body = {
-      nombre: result ? result.nombre : 'No Name',
-      apellido: result ? result.apellido : 'No Surname',
-      titulo: 'ejemplo 7'
+      nombre: result ? result.nombre : 'Sin ',
+      apellido: result ? result.apellido : 'datos',
+      titulo: 'NO SE ENCONTRÓ EL DNI'
     };
 
     res.render('saludar', res_body);

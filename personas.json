@@ -18,5 +18,10 @@
     "dni": "4567",
     "nombre": "Luisa",
     "apellido": "Martín"
+  },
+  {
+    "dni": "5678",
+    "nombre": "ATX 260",
+    "mother": "a2000"
   }
 ]
